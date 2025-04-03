@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Small-scale meeting  |  Assignment_2_10</title>
+    <script src="assignment_2_10.js" defer></script>
+</head>
+<body>
+    <h1>Small-scale meeting</h1>
+    <br>
+
+    <h2>Module 2. Arrays and functions</h2>
+
+    <h3>
+        10. Write a voting program as described below for small-scale meeting
+        use. (8p)
+    </h3>
+    <ul>
+        <li>
+           The program asks for the number of candidates.
+        </li>
+        <li>
+            Then the program asks for the names of the candidates:
+            <em>'Name for candidate 1</em>
+        </li>
+        <li>
+            Store the candidates' names and initial vote count in objects
+            like this: <br>
+            <em><br>
+                [<br>
+    {<br>
+        name: 'ellie',<br>
+        votes: 0,<br>
+    },<br>
+    {<br>
+        name: 'frank',<br>
+        votes: 0,<br>
+    },<br>
+    {<br>
+        name: 'pamela',<br>
+        votes: 0,<br>
+    },<br>
+]
+            </em>.
+        </li>
+        <li>
+            The program asks for the number of voters.
+        </li>
+        <li>
+            The program asks each voter in turn who they will vote for. Voter
+            should enter candidate name. If the voter enters an empty value
+            instead of the voting number, it will be interpreted as an empty
+            vote.
+        </li>
+        <li>
+            The program announces the name of the winner and the results by
+            printing it to the console: <br>
+            <em>
+                The winner is pamela with 3 votes.<br>
+                results:<br>
+                pamela: 3 votes<br>
+                frank: 1 votes<br>
+                ellie: 1 votes
+            </em>
+        </li>
+        <li>
+            Some help: <br>
+            <em>
+            // You need to compare votes so console log a and b to see how to get the correct property.<br>
+                someArray.sort((a, b) => {<br>
+                console.log(a, b);<br>
+                return b - a;<br>
+                });
+            </em>
+        </li>
+    </ul>
+
+    <hr>
+    <br>
+    <p>Check console for results (F12)</p>
+    <br>
+    <hr>
+
+    <div id="result"></div>
+
+</body>
+</html>
