@@ -1,5 +1,19 @@
 'use strict';
 
+/*
+// 老师的参考答案
+const numbers = [];
+
+for (let i = 0; i < 5; i++) {
+    numbers.push(+prompt('Enter a number'));
+}
+
+for (let i = 4; i >=0; i--) {
+    console.log(numbers[i]);
+}
+*/
+
+
 // 创建一个空数组来存储数字
 const numbers = [];
 

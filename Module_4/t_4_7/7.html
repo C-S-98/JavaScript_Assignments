@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reitti Karaporttiin</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #map {
+            height: 500px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+        }
+        input {
+            padding: 8px;
+            width: 300px;
+        }
+
+        #info {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reitti Karaporttiin</h1>
+    <div>
+        <input type="text" id="address" placeholder="Syötä lähtöosoite (esim. Kamppi, Helsinki)">
+        <button onclick="search()">Hae reitti</button>
+    </div>
+    <div id="info"></div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/polyline-encoded@0.0.9/Polyline.encoded.min.js"></script>
+    <script src="7.js"></script>
+</body>
+</html>
